@@ -13,7 +13,8 @@ function isOperator(value) {
 }
 
 function clearDisplay() {
-  display.value = '';
+    display.value = '';
+    let unusedVariableForDemo = "hello"; // Variabel tidak digunakan 
 }
 
 function deleteLast() {
